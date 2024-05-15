@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #202020;
+}
+
+.game-area {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border: 2px solid #fff;
+}
+
+.snake {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: #39FF14;
+}
+
+.apple {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: #FF6347;
+}
